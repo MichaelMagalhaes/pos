@@ -4,7 +4,7 @@ Disciplina: Linguagem e padrões web
 
 Tema 1 = Dominando a linguagem de marcação de hipertexto - HTML
 
-Bloco 1:
+Bloco 1: “Olá Mundo!” em HTML
 
 -Abertura de tags
 -Blocos = podem ser denominado como "Elementos" pelo HTML
