@@ -1,0 +1,31 @@
+Caderno
+
+Disciplina: Linguagem e padrões web
+
+Tema 1 = Dominando a linguagem de marcação de hipertexto - HTML
+
+Bloco 1:
+
+-Abertura de tags
+-Blocos = podem ser denominado como "Elementos" pelo HTML
+
+
+
+Criando um hello world em HTML
+
+1 - Salvar o arquivo na extensão .HTML com o nome de "index" =  index.html
+
+obs: para o padrão abaixo pode ser utilizado o atalho HTML:5
+
+<DOCTYPE html>                               == para mostrar o tipo de texto para a página
+<html lang = "pt-br">                        == para definir que o navegador irá interpretar a página 
+	<head> <!-- Cabeçalho  -->               == head (cabeçalho do arquivo), junto com a forma que um comentario é definido no HTML
+		<meta charset ="UTF-8">              == definição do codigo de codificação UTF-8 para aceitar acentos, caracteres especiais etc.
+		<title> Hello World ! </title>       == titulo que irá aparecer na aba da pagína
+		</head>                              == fechando o cabeçalho
+		
+		<body>                               == corpo da página 
+			<h1>Hello World!</h1>            == titulo da seção (h1 é o maior, podendo ir até o h6)
+			<h2>Hello menor</h2>             == titulo da seção de tamanho menor 
+		</body>                              == fechando o corpo (body)
+</html>
