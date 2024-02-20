@@ -1,0 +1,12 @@
+Caderno
+
+Disciplina: Linguagem e padrões web
+
+Tema 1 = Dominando a linguagem de marcação de hipertexto - HTML
+
+Bloco 2:
+
+Editores para  HTML:
+
+-Notepad++
+-Visual Studio Code
