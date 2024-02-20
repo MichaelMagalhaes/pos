@@ -1,0 +1,34 @@
+Caderno
+
+Disciplina: Linguagem e padrões web
+
+Tema 1 = Dominando a linguagem de marcação de hipertexto - HTML
+
+Bloco 3: Aprimorando uma página HTML
+
+tags novas:
+
+<p>             					== paragrafo
+<br>            					== quebra de linha 
+<a href="pagina.html"></a> 			== hiperlink para outra pagina 
+<hr>                                == uma "linha" que corta o conteúdo da página 
+
+
+
+Inserir imagem:
+
+Recomendado a criação de uma pasta especifica para organizar as imagens
+
+
+	 src == (source(fonte))     alt == texto alternativo caso não encontre a imagem 
+<img src="images/itadori.jpg" alt="Imagem do Itadori"/>
+
+
+Usar:
+./  = pasta posterior a pasta atual
+../ = pasta anterior a pasta atual 
+
+Exemplos:
+
+<a href="./html/pagina2.html">Ir para a 2ª página</a>
+<a href="../index.html">Voltar para a página principal</a>
