@@ -1,0 +1,83 @@
+Caderno
+
+Disciplina: Linguagem e padrões web
+
+Tema 1 = Dominando a linguagem de marcação de hipertexto - HTML
+
+Bloco 4: TEORIA EM PRÁTICA
+
+
+Criar uma página HTML, lista de especificações de um produto único.
+
+
+Listas
+
+<ul>             					== lista não ordenada/numerada
+<li>            					== usado para representar um item de uma lista  
+<strong> 							== negrito
+
+
+Exemplo de lista:
+
+<h1> Cinemms </h1>
+    <ul>
+        <li><h2> Demon Slayer: Kimetsu No Yaiba - To The Hashira Training </h2></li>
+        <img src="images/banner.jpg" alt="Banner do filme" height="500" width="500">
+        <br></br>
+        <li><strong>Gênero:</strong> Ação, Animação </li>
+        <li><strong>Data de lançamento:</strong> 22/02/2024</li>
+        <li><strong>Duração:</strong> 2h10</li>
+        <li><strong>Classificação indicativa:</strong> 16 anos </li>
+        <li><strong>Sinopse:</strong> pós a violenta conclusão da batalha entre Tanjiro e o Quatro Superior, Hantengu, bem como o triunfo de Nezuko sobre o sol, começa o treinamento realizado pelos Hashira em preparação para a batalha final contra Muzan Kibutsuji. </li>
+    </ul>
+
+
+Formularios:
+
+<form>             					== elemento para formulario
+<label>            					== rotulo
+<input type="text"> 				== campo txt
+placeholder                         == deixa uma mensagem quando o campo está vazio
+textarea                            == campo de entrada para texto ou caixa de texto, definindo linhas e colunas
+
+Exemplo de formulario:
+
+<h2>Comentários:</h2>
+    <form>
+        <br/>
+        <label>Nome:</label>
+        <input type="text" placeholder="Nome">
+        <br/><br/>
+        <label>Email:</label>
+        <input type="text" placeholder="Email">
+        <br/><br/>
+        <label>Comentario:</label>
+        <textarea placeholder="Comentario" rows="10" cols="18"></textarea>
+    </form>
+	
+	
+Formularios em tabelas:
+
+<table>             				== elemento tabela
+<tr>            					== "table row" = usado para definir uma linha 
+<td> 								== "table data" = cria uma coluna para inserção de conteúdo
+
+Exemplo de formulario em  tabelas:
+
+<h2>Comentarios (Tabela) </h2>
+    <form>
+        <table>
+            <tr>
+                <td><label>Nome:</label></td>
+                <td><input type="text" placeholder="Nome"></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="text" placeholder="E-mail"></td>
+            </tr>
+            <tr>
+                <td><label>Mensagem:</label></td>
+                <td><textarea placeholder="Mensagem" rows="10" cols="22"></textarea></td>
+            </tr>
+        </table>
+    </form>
