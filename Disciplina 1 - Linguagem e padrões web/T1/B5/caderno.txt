@@ -1,0 +1,2 @@
+É possivel visualizar alguns códigos de desenvolvimento utilizado por outras páginas, utilizando a ferramenta do desenvolvedor, indo até o caminho = mais ferramentos -> ferramentas do desenvolvedor.
+  Ou utilizar o atalho = Ctrl + Shift + I
