@@ -1,0 +1,33 @@
+Caderno
+
+Disciplina: Linguagem e padrões web
+
+Tema 2 = APRIMORAMENTO DAS PÁGINAS WEB: AS FOLHAS DE ESTILO EM CASCATA
+Bloco 3: Conceitos fundamentais
+
+-Estiliza a página, gerando uma maior atração pelas páginas HTML
+<style> = regras e propriedades de estilização, para determinados  elementos do HTML:
+
+Exemplo:
+
+<style>
+        body{
+            background-color: red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1, h2, h3{
+            color: yellow;
+            text-align: center;
+        }
+        p{
+            color: cadetblue;
+            font-weight: bold;
+        }
+    </style>
+	
+		<body>
+			<h1>Olá Mundo</h1>
+			<h2>Olá Mundo</h1>
+			<h3>Olá Mundo</h1>
+			<p>Teste paragrafo</p>
+		</body>
