@@ -1,0 +1,56 @@
+Caderno
+
+Disciplina: Linguagem e padrões web
+
+Tema 2 = APRIMORAMENTO DAS PÁGINAS WEB: AS FOLHAS DE ESTILO EM CASCATA
+Bloco 2: Principais elementos e seletores de regras CSS
+
+-É possivel adicionar uma classe em um elemento:
+<h1 class="h1verde"> Hello World!</h1>
+
+Para definir estilo apenas para classe, utilização do "."
+
+.h1verde{
+color: grey;
+}
+
+-----------------------------------------------------------------
+
+Também podemos utilizar um identificador como seletor (para definir um elemento único)
+
+<h1 id = "h1verde" class = "hverde"> Hello World </h1>
+
+
+Definir estilo para o id, utilização do "#".
+
+#h1verde { 
+	fonte-size: large;
+}
+
+
+Exemplo:
+
+<style>
+        body{
+            background-color: grey;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1, h2, h3{
+            color: yellow;
+            text-align: center;
+        }
+        p{
+            color: cadetblue;
+            font-weight: bold;
+        }
+        .hverde{
+            color: green;
+        }
+        #h1verde{
+            font-size: large;
+        }
+
+        .alinhatexto{
+            text-align: right;
+        }
+    </style>
