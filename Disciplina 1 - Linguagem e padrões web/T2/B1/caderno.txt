@@ -3,7 +3,7 @@ Caderno
 Disciplina: Linguagem e padrões web
 
 Tema 2 = APRIMORAMENTO DAS PÁGINAS WEB: AS FOLHAS DE ESTILO EM CASCATA
-Bloco 3: Conceitos fundamentais
+Bloco 1: Conceitos fundamentais
 
 -Estiliza a página, gerando uma maior atração pelas páginas HTML
 <style> = regras e propriedades de estilização, para determinados  elementos do HTML:
