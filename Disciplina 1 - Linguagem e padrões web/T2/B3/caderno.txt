@@ -1,0 +1,25 @@
+Caderno
+
+Disciplina: Linguagem e padrões web
+
+Tema 2 = APRIMORAMENTO DAS PÁGINAS WEB: AS FOLHAS DE ESTILO EM CASCATA
+Bloco 3: Aprimorando uma página com CSS 
+
+-Style.css 
+
+Código para conexão entre HTML e CSS 
+<link href="css/style.css" rel="stylesheet"/>
+
+
+<div> = Divisão / Divisoria para os conteúdos
+
+Podemos utilizar (Propriedades):
+
+border: 5px 			== borda
+height: 200px 			== altura
+width: 300px 			== largura
+margin: 10px 			== margem
+padding: 	      		== definir distancia entre o conteúdo de um elemento e as suas bordas
+
+Ordem de dentro para fora (imagine um retangulo dentro do outro):
+Conteudo -> Padding -> Border -> Margin
