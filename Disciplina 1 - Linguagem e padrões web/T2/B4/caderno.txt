@@ -1,0 +1,6 @@
+B4: Teoria em pratica
+
+- Criar uma página para dentista
+- Pagina principal (tratamentos realizados)
+- Segunda página (contato) - Modelo de caixas
+- Ligação do HTML e CSS.
