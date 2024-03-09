@@ -1,0 +1,61 @@
+.h1Titulo{
+    text-align: center;
+}
+
+#lblHome{
+    text-align: left;
+    width: 33%;
+    height: 40px;
+    display: inline-block;
+}
+
+#lblTratamentos{
+    text-align: center;
+    width: 33%;
+    height: 40px;
+    display: inline-block;
+}
+
+#lblContato{
+    text-align: right;
+    width: 33%;
+    height: 40px;
+    display: inline-block;
+}
+
+.MenuSelecao{
+    border: 50px;
+    margin: 50px;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+#FraseSorriso{
+    text-align: center;
+}
+
+#imagemsorriso{
+    padding: 5%;
+}
+
+#Rodape{
+    text-align: center;
+}
+
+.imagemtratamento{
+    padding: 0%;
+    border: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+.MenuSelecao a{
+    background-color: black;
+    color: white;
+}
+
+.MenuSelecao a:hover{
+    background-color: black;
+    color: blue;
+}
