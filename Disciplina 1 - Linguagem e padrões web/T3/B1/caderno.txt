@@ -1,0 +1,17 @@
+Caderno
+
+Disciplina: Linguagem e padrões web
+
+Tema 3 = Linguagem Javascript: do básico ao avançado
+Bloco 1: Conceitos básicos sobre a linguagem javascript
+
+Podemos utilizar o <script> = usado para o navegador interpretar o que será entendido como "Javascript"
+
+Pegar um elemento iD, HTML pelo JS:
+<p id = "paragrafo"></p>
+	document.getElementById("paragrafo").innerText = "Hello World";
+	
+Conectar um script JS no HTML:
+
+<script src="script.js"></script>
+
