@@ -1,0 +1,24 @@
+Caderno
+
+Disciplina: Linguagem e padrões web
+
+Tema 3 = Linguagem Javascript: do básico ao avançado
+Bloco 3: Eventos em JS
+
+body onload=""                           === assim que a página carregar chame determinado evento
+
+Função ao botão:
+
+<button onClick="funcaoAdicionaTitulo()"> Clique aqui!</button>
+
+
+Exemplo de função:
+
+function funcaoAdicionaTitulo(){
+    console.log("Antes do IF da funcaoAdicionaTitulo!");
+    if(objt1.innerText === "Titulo Criado via Javascript"){
+        return objt1.innerHTML = "Apaguei o titulo!";
+    }else{
+        return objt1.innerHTML = "<h1> Titulo Criado via Javascript </h1>" 
+    }
+}
