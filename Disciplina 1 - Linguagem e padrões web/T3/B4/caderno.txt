@@ -1,0 +1,51 @@
+Caderno
+
+Disciplina: Linguagem e padrões web
+
+Tema 3 = Linguagem Javascript: do básico ao avançado
+Bloco 4: Teoria em pratica
+
+Criar um formuilario com os campos usuario e senha, comparar os dois e verificar se o login é valido.
+
+  Codigo:
+
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form name="validalogin" onsubmit="event.preventDefault(); validaLogin();">
+        <h1> Realize o login </h1>
+        <label for="usuario">Usuário:</label>
+        <input name="usuario" type="text" placeholder="Nome de Usuário">
+
+        <label for="senha">Senha:</label>
+        <input name="senha" type="text" placeholder="Senha">
+
+        <button type="submit"> Validar </button>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+  -------------------------------------
+
+  JS: (script.js)
+
+function validaLogin(){
+    var user = "Admin";
+    var pass = "1234";
+
+    if(user === document.forms["validalogin"]["usuario"].value && pass === document.forms["validalogin"]["senha"].value){
+        alert("Login Válido");
+        return true;
+    }else {
+        alert("Login inválido");
+        return false;
+    }
+}
