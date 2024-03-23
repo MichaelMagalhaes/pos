@@ -1,0 +1,15 @@
+B4: Como inserir elementos no HTML:
+
+JS (script.js):
+document.querySelector('#h1element').innerHTML = "Texto H1";
+document.querySelector('.h2element').innerHTML = "Texto H2";
+document.querySelector('h3').innerHTML = "Texto H3";
+
+HTML:
+<body onload="alerta(); consolepessoal();">
+    <h1 id="h1element"></h1>
+    <h2 class="h2element"></h2>
+    <h3></h3>
+
+    <script src="./js/script.js"></script>
+</body>
